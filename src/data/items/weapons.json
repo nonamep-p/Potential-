@@ -1,0 +1,316 @@
+[
+  {
+    "id": "beginner_sword",
+    "name": "Beginner's Sword",
+    "type": "weapon",
+    "rarity": "common",
+    "description": "A basic sword given to new adventurers. It's not much, but it's a start.",
+    "plaggComment": "Great. A glorified butter knife. Can it even cut cheese? I doubt it.",
+    "value": 50,
+    "level": 1,
+    "stats": {
+      "atk": 15,
+      "type": "physical"
+    }
+  },
+  {
+    "id": "wooden_staff",
+    "name": "Wooden Staff",
+    "type": "weapon",
+    "rarity": "common",
+    "description": "A simple wooden staff imbued with basic magical properties.",
+    "plaggComment": "It's just a stick. A fancy stick, but still a stick. I've seen better twigs.",
+    "value": 45,
+    "level": 1,
+    "stats": {
+      "atk": 12,
+      "int": 3,
+      "type": "magic"
+    }
+  },
+  {
+    "id": "rusty_dagger",
+    "name": "Rusty Dagger",
+    "type": "weapon",
+    "rarity": "common",
+    "description": "A worn dagger that has seen better days, but still sharp enough.",
+    "plaggComment": "Perfect for cutting cheese! Oh wait, it's too rusty. Never mind, it's useless.",
+    "value": 40,
+    "level": 1,
+    "stats": {
+      "atk": 10,
+      "dex": 5,
+      "type": "physical"
+    }
+  },
+  {
+    "id": "iron_sword",
+    "name": "Iron Sword",
+    "type": "weapon",
+    "rarity": "uncommon",
+    "description": "A well-crafted iron sword with good balance and sharpness.",
+    "plaggComment": "Now we're talking! Still not as sharp as my wit, but it'll do.",
+    "value": 200,
+    "level": 5,
+    "stats": {
+      "atk": 25,
+      "str": 2,
+      "type": "physical"
+    }
+  },
+  {
+    "id": "mystic_wand",
+    "name": "Mystic Wand",
+    "type": "weapon",
+    "rarity": "uncommon",
+    "description": "A crystalline wand that amplifies magical energies.",
+    "plaggComment": "Ooh, sparkly! Almost as beautiful as a perfectly aged Camembert.",
+    "value": 180,
+    "level": 5,
+    "stats": {
+      "atk": 18,
+      "int": 8,
+      "mana": 20,
+      "type": "magic"
+    }
+  },
+  {
+    "id": "twin_daggers",
+    "name": "Twin Daggers",
+    "type": "weapon",
+    "rarity": "uncommon",
+    "description": "A pair of matching daggers designed for quick, precise strikes.",
+    "plaggComment": "Two daggers! Perfect for double the cheese cutting. Wait, what are we fighting again?",
+    "value": 220,
+    "level": 5,
+    "stats": {
+      "atk": 20,
+      "dex": 6,
+      "crit": 5,
+      "type": "physical"
+    }
+  },
+  {
+    "id": "steel_greatsword",
+    "name": "Steel Greatsword",
+    "type": "weapon",
+    "rarity": "rare",
+    "description": "A massive two-handed sword that deals devastating damage.",
+    "plaggComment": "Big, heavy, and completely impractical for cheese duties. But hey, intimidation factor!",
+    "value": 500,
+    "level": 10,
+    "stats": {
+      "atk": 45,
+      "str": 5,
+      "def": -2,
+      "type": "physical"
+    }
+  },
+  {
+    "id": "elemental_staff",
+    "name": "Elemental Staff",
+    "type": "weapon",
+    "rarity": "rare",
+    "description": "A staff that can channel multiple elemental magics.",
+    "plaggComment": "Fire, ice, lightning... but can it conjure cheese? That's the real question.",
+    "value": 480,
+    "level": 10,
+    "stats": {
+      "atk": 35,
+      "int": 12,
+      "mana": 40,
+      "type": "magic"
+    },
+    "effects": ["elemental_mastery"]
+  },
+  {
+    "id": "shadow_blade",
+    "name": "Shadow Blade",
+    "type": "weapon",
+    "rarity": "rare",
+    "description": "A dark blade that seems to absorb light itself.",
+    "plaggComment": "Edgy. Very edgy. Like cheese that's been aged in darkness. Actually, that sounds delicious!",
+    "value": 520,
+    "level": 10,
+    "stats": {
+      "atk": 38,
+      "dex": 10,
+      "crit": 8,
+      "type": "physical"
+    },
+    "effects": ["shadow_strike"]
+  },
+  {
+    "id": "dragon_slayer",
+    "name": "Dragon Slayer",
+    "type": "weapon",
+    "rarity": "epic",
+    "description": "A legendary sword forged specifically to slay dragons.",
+    "plaggComment": "Dragons, huh? Do they like cheese? We should be friends, not enemies!",
+    "value": 1200,
+    "level": 15,
+    "stats": {
+      "atk": 65,
+      "str": 8,
+      "fire_resist": 20,
+      "type": "physical"
+    },
+    "effects": ["dragon_bane"]
+  },
+  {
+    "id": "archmage_rod",
+    "name": "Archmage's Rod",
+    "type": "weapon",
+    "rarity": "epic",
+    "description": "The personal weapon of an ancient archmage, crackling with raw power.",
+    "plaggComment": "Ancient magic, huh? I bet it predates even the oldest cheese. That's saying something!",
+    "value": 1100,
+    "level": 15,
+    "stats": {
+      "atk": 50,
+      "int": 18,
+      "mana": 80,
+      "type": "magic"
+    },
+    "effects": ["spell_power", "mana_efficiency"]
+  },
+  {
+    "id": "void_daggers",
+    "name": "Void Daggers",
+    "type": "weapon",
+    "rarity": "epic",
+    "description": "Twin daggers that seem to cut through reality itself.",
+    "plaggComment": "Cutting through reality? Can they cut through to a dimension made entirely of cheese?",
+    "value": 1300,
+    "level": 15,
+    "stats": {
+      "atk": 55,
+      "dex": 15,
+      "crit": 15,
+      "type": "physical"
+    },
+    "effects": ["void_strike", "reality_cut"]
+  },
+  {
+    "id": "excalibur",
+    "name": "Excalibur",
+    "type": "weapon",
+    "rarity": "legendary",
+    "description": "The legendary sword of kings, said to choose its own wielder.",
+    "plaggComment": "A sword that chooses its wielder? I wonder if it would choose someone based on their cheese preferences.",
+    "value": 2500,
+    "level": 20,
+    "stats": {
+      "atk": 90,
+      "str": 12,
+      "def": 10,
+      "hp": 50,
+      "type": "physical"
+    },
+    "effects": ["divine_blessing", "royal_authority"]
+  },
+  {
+    "id": "staff_of_eternity",
+    "name": "Staff of Eternity",
+    "type": "weapon",
+    "rarity": "legendary",
+    "description": "A staff that contains the power of time itself.",
+    "plaggComment": "Time magic? Perfect! Can it age cheese instantly? That would be revolutionary!",
+    "value": 2400,
+    "level": 20,
+    "stats": {
+      "atk": 75,
+      "int": 25,
+      "mana": 150,
+      "type": "magic"
+    },
+    "effects": ["time_mastery", "eternal_mana"]
+  },
+  {
+    "id": "chaos_claws",
+    "name": "Chaos Claws",
+    "type": "weapon",
+    "rarity": "legendary",
+    "description": "Claws infused with pure chaotic energy, unpredictable and devastating.",
+    "plaggComment": "Now THIS is my kind of weapon! Chaos and destruction... and probably great for shredding cheese!",
+    "value": 2600,
+    "level": 20,
+    "stats": {
+      "atk": 85,
+      "dex": 20,
+      "crit": 25,
+      "type": "physical"
+    },
+    "effects": ["chaos_strike", "destruction_aura"]
+  },
+  {
+    "id": "plaggs_cheese_knife",
+    "name": "Plagg's Cheese Knife",
+    "type": "weapon",
+    "rarity": "mythic",
+    "description": "The ultimate cheese-cutting implement, blessed by Plagg himself.",
+    "plaggComment": "NOW we're talking! The perfect weapon! Finally, someone gets it!",
+    "value": 5000,
+    "level": 25,
+    "stats": {
+      "atk": 120,
+      "str": 15,
+      "dex": 15,
+      "crit": 30,
+      "type": "physical"
+    },
+    "effects": ["cheese_mastery", "plagg_blessing", "cataclysm"]
+  },
+  {
+    "id": "infinity_blade",
+    "name": "Infinity Blade",
+    "type": "weapon",
+    "rarity": "mythic",
+    "description": "A blade that exists across all dimensions simultaneously.",
+    "plaggComment": "Infinite dimensions... infinite cheese possibilities! This could be the key to the cheese multiverse!",
+    "value": 4800,
+    "level": 25,
+    "stats": {
+      "atk": 110,
+      "str": 20,
+      "int": 20,
+      "dex": 20,
+      "type": "physical"
+    },
+    "effects": ["dimensional_strike", "infinity_power"]
+  },
+  {
+    "id": "cosmic_scepter",
+    "name": "Cosmic Scepter",
+    "type": "weapon",
+    "rarity": "mythic",
+    "description": "A scepter containing the power of entire galaxies.",
+    "plaggComment": "Cosmic power, huh? I bet there are entire planets made of cheese out there waiting to be discovered!",
+    "value": 4900,
+    "level": 25,
+    "stats": {
+      "atk": 100,
+      "int": 30,
+      "mana": 200,
+      "type": "magic"
+    },
+    "effects": ["cosmic_power", "stellar_magic"]
+  },
+  {
+    "id": "cheese_grater_supreme",
+    "name": "Cheese Grater Supreme",
+    "type": "weapon",
+    "rarity": "mythic",
+    "description": "The ultimate cheese preparation tool, capable of grating anything into perfect cheese-like consistency.",
+    "plaggComment": "PERFECTION! This is what peak weaponry looks like! Everything becomes cheese!",
+    "value": 10000,
+    "level": 30,
+    "stats": {
+      "atk": 150,
+      "dex": 25,
+      "crit": 50,
+      "type": "physical"
+    },
+    "effects": ["ultimate_grating", "cheese_conversion", "plagg_approval"]
+  }
+]

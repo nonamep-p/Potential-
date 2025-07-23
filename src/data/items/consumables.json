@@ -1,0 +1,64 @@
+
+[
+  {
+    "id": "health_potion",
+    "name": "Health Potion",
+    "description": "A basic healing potion that restores HP.",
+    "type": "consumable",
+    "rarity": "common",
+    "level": 1,
+    "value": 25,
+    "effect": "heal",
+    "power": 30,
+    "plaggComment": "Healing juice! Not as good as cheese, but it works."
+  },
+  {
+    "id": "mana_potion",
+    "name": "Mana Potion",
+    "description": "Restores magical energy.",
+    "type": "consumable",
+    "rarity": "common",
+    "level": 1,
+    "value": 30,
+    "effect": "mana",
+    "power": 25,
+    "plaggComment": "Magic juice! Tastes like blue cheese water."
+  },
+  {
+    "id": "strength_elixir",
+    "name": "Strength Elixir",
+    "description": "Temporarily increases your strength.",
+    "type": "consumable",
+    "rarity": "uncommon",
+    "level": 3,
+    "value": 75,
+    "effect": "buff_str",
+    "power": 5,
+    "duration": 300,
+    "plaggComment": "Power boost! Like the strength I get from aged cheddar!"
+  },
+  {
+    "id": "cheese_wheel",
+    "name": "Aged Cheese Wheel",
+    "description": "Plagg's favorite! Fully restores HP and provides temporary buffs.",
+    "type": "consumable",
+    "rarity": "legendary",
+    "level": 1,
+    "value": 500,
+    "effect": "full_heal_buff",
+    "power": 999,
+    "plaggComment": "PERFECT! This is what I'm talking about! Pure cheese power!"
+  },
+  {
+    "id": "stamina_bread",
+    "name": "Stamina Bread",
+    "description": "Hearty bread that restores energy.",
+    "type": "consumable",
+    "rarity": "common",
+    "level": 1,
+    "value": 15,
+    "effect": "stamina",
+    "power": 20,
+    "plaggComment": "Bread is okay... but where's the cheese to go with it?"
+  }
+]

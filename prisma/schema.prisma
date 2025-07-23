@@ -1,0 +1,79 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Player {
+  id                     String    @id @default(cuid())
+  discordId              String    @unique
+  username               String
+  level                  Int       @default(1)
+  xp                     Int       @default(0)
+  gold                   Int       @default(100)
+  elo                    Int       @default(1000)
+  className              String    @default("Adventurer")
+  pathName               String?
+  factionId              String?
+
+  // Stats
+  hp                     Int       @default(100)
+  maxHp                  Int       @default(100)
+  mana                   Int       @default(50)
+  maxMana                Int       @default(50)
+  str                    Int       @default(10)
+  int                    Int       @default(10)
+  dex                    Int       @default(10)
+  def                    Int       @default(10)
+  statPoints             Int       @default(0)
+
+  // JSON stored data
+  inventoryJson          String    @default("[]")
+  equipmentJson          String    @default("{}")
+  completedScenariosJson String    @default("[]")
+  achievementsJson       String    @default("[]")
+
+  // Combat state
+  inCombat               Boolean   @default(false)
+  combatStateJson        String    @default("{}")
+
+  // Dungeon state
+  inDungeon              Boolean   @default(false)
+  dungeonStateJson       String    @default("{}")
+
+  // Housing
+  houseLevel             Int       @default(1)
+  houseItemsJson         String    @default("[]")
+
+  // Pet
+  petId                  String?
+  petStateJson           String    @default("{}")
+
+  banned          Boolean  @default(false)
+  banReason       String?
+  bannedAt        DateTime?
+  bannedBy        String?
+
+  createdAt              DateTime  @default(now())
+  updatedAt              DateTime  @updatedAt
+}
+
+model MarketListing {
+  id          String    @id @default(cuid())
+  sellerId    String
+  itemId      String
+  quantity    Int
+  price       Int
+  expires     DateTime
+  createdAt   DateTime  @default(now())
+}
+
+model GlobalData {
+  id          String    @id @default(cuid())
+  key         String    @unique
+  valueJson   String
+  updatedAt   DateTime  @updatedAt
+}

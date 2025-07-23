@@ -1,0 +1,105 @@
+
+[
+  {
+    "id": "leather_vest",
+    "name": "Leather Vest",
+    "description": "Basic leather protection for beginners.",
+    "type": "armor",
+    "rarity": "common",
+    "level": 1,
+    "value": 50,
+    "stats": {
+      "def": 2
+    },
+    "plaggComment": "Better than nothing! Like wearing cheese instead of going naked."
+  },
+  {
+    "id": "chain_mail",
+    "name": "Chain Mail",
+    "description": "Interlocked metal rings provide decent protection.",
+    "type": "armor",
+    "rarity": "uncommon",
+    "level": 5,
+    "value": 200,
+    "stats": {
+      "def": 5,
+      "hp": 10
+    },
+    "plaggComment": "Shiny and protective! Like wrapping yourself in cheese grater mesh."
+  },
+  {
+    "id": "steel_plate",
+    "name": "Steel Plate Armor",
+    "description": "Heavy steel plates offer excellent protection.",
+    "type": "armor",
+    "rarity": "rare",
+    "level": 10,
+    "value": 500,
+    "stats": {
+      "def": 10,
+      "hp": 25,
+      "str": 2
+    },
+    "plaggComment": "Heavy but effective! Like carrying a cheese wheel for protection."
+  },
+  {
+    "id": "mithril_mail",
+    "name": "Mithril Mail",
+    "description": "Lightweight yet incredibly strong magical metal armor.",
+    "type": "armor",
+    "rarity": "epic",
+    "level": 15,
+    "value": 1000,
+    "stats": {
+      "def": 15,
+      "hp": 40,
+      "mana": 20
+    },
+    "plaggComment": "Magical protection! Probably made from crystallized cheese magic."
+  },
+  {
+    "id": "dragon_scale",
+    "name": "Dragon Scale Armor",
+    "description": "Crafted from actual dragon scales, this armor is nearly impenetrable.",
+    "type": "armor",
+    "rarity": "legendary",
+    "level": 20,
+    "value": 2500,
+    "stats": {
+      "def": 25,
+      "hp": 75,
+      "fireResistance": 50
+    },
+    "plaggComment": "Dragon scales! I wonder if dragons like cheese too?"
+  },
+  {
+    "id": "celestial_robes",
+    "name": "Celestial Robes",
+    "description": "Robes woven from starlight itself, perfect for spellcasters.",
+    "type": "armor",
+    "rarity": "epic",
+    "level": 12,
+    "value": 800,
+    "stats": {
+      "def": 8,
+      "mana": 50,
+      "int": 5
+    },
+    "plaggComment": "Starlight robes! Do they come in cheese yellow?"
+  },
+  {
+    "id": "shadow_cloak",
+    "name": "Shadow Cloak",
+    "description": "A cloak that bends light and shadow for rogues.",
+    "type": "armor",
+    "rarity": "rare",
+    "level": 8,
+    "value": 400,
+    "stats": {
+      "def": 6,
+      "dex": 8,
+      "stealth": 25
+    },
+    "plaggComment": "Sneaky cloak! Perfect for sneaking into cheese vaults."
+  }
+]

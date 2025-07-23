@@ -1,0 +1,65 @@
+
+[
+  {
+    "id": "ring_of_power",
+    "name": "Ring of Power",
+    "description": "A mysterious ring that enhances all abilities.",
+    "type": "artifact",
+    "rarity": "epic",
+    "level": 15,
+    "value": 1500,
+    "stats": {
+      "str": 3,
+      "dex": 3,
+      "int": 3,
+      "def": 3
+    },
+    "plaggComment": "Shiny ring! I prefer cheese rings, but this works too."
+  },
+  {
+    "id": "amulet_of_life",
+    "name": "Amulet of Life",
+    "description": "Grants the wearer increased vitality and health regeneration.",
+    "type": "artifact",
+    "rarity": "rare",
+    "level": 10,
+    "value": 800,
+    "stats": {
+      "hp": 100,
+      "regeneration": 2
+    },
+    "plaggComment": "Life force! Like the eternal power of cheese preservation!"
+  },
+  {
+    "id": "plaggs_miracle",
+    "name": "Plagg's Miraculous",
+    "description": "The ultimate artifact of destruction and cheese mastery.",
+    "type": "artifact",
+    "rarity": "mythic",
+    "level": 25,
+    "value": 10000,
+    "stats": {
+      "str": 20,
+      "dex": 20,
+      "int": 20,
+      "def": 20,
+      "cheeseBonus": 100
+    },
+    "plaggComment": "MY MIRACULOUS! The ultimate cheese-powered artifact!"
+  },
+  {
+    "id": "wisdom_crystal",
+    "name": "Crystal of Wisdom",
+    "description": "Enhances magical abilities and mana capacity.",
+    "type": "artifact",
+    "rarity": "epic",
+    "level": 12,
+    "value": 1200,
+    "stats": {
+      "int": 8,
+      "mana": 75,
+      "spellPower": 15
+    },
+    "plaggComment": "Smart crystal! Probably contains ancient cheese knowledge."
+  }
+]
